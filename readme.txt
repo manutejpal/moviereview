@@ -13,7 +13,7 @@ Also made use of hateos to provide extra connected links along with desired resp
 
 Commands to run:
 ==============
-1) Download source code and unzip
+1) Download source code or clone
 2) Run following commands on parent dir
    mvn clean install docker:build  --> compiles, builds and creates image
    docker run  -p 8080:8080 movie-review:latest
